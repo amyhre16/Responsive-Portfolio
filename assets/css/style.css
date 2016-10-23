@@ -214,11 +214,62 @@ hr {
 	background-color: teal;
 	width: 100%;
 	text-align: center;
-	/*padding: 10px;*/
-	/*height: 50px;*/
 	height: 25px;
 }
 
 .port-row {
 	margin-bottom: 45px;
+}
+
+
+
+/* 
+	
+	styling for responsivity....I think that's how you spell it
+
+*/
+
+@media screen and (max-width: 980px) {
+	
+}
+
+@media screen and (max-width: 768px) {
+	/*
+		changing connectWithMe background color to blue is so I can see that this query is working
+	*/
+	.connectWithMe {
+		background-color: blue;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	/*
+		changing connectWithMe background color to blue is so I can see that this query is working
+	*/
+	.connectWithMe {
+		background-color: red;
+	}
+
+	header {
+		position: static;
+	}
+
+	#header {
+		margin: 0px;
+		width: 100%;
+		text-align: center;
+	}
+
+	nav {
+		float: left;
+		width: 100%;
+	}
+
+	table {
+		width: 100%;
+	}
+
+	/*.navCell {
+		width: 33.33%
+	}*/
 }
