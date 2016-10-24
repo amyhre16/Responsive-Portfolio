@@ -272,16 +272,18 @@ hr {
 	.wrapper {
 		margin: auto;
 		max-width: 100%;
+		padding-right: 25px;
 	}
 
 	.aboutMe {
 		margin: 15px;
-		width: auto;
+		width: 100%;
+		overflow: auto;
 	}
 
 	#aboutMe-profile-picture {
-		width: 570px;
-		height: 570px;
+		width: 100%;
+		height: 100%;
 		margin-right: 0px;
 	}
 
