@@ -234,24 +234,20 @@ hr {
 }
 
 @media screen and (max-width: 768px) {
-	/*
-		changing connectWithMe background color to blue is so I can see that this query is working
-	*/
-	.connectWithMe {
-		background-color: blue;
-	}
+	
 }
 
 @media screen and (max-width: 640px) {
 	/*
 		changing connectWithMe background color to blue is so I can see that this query is working
 	*/
-	.connectWithMe {
+	/*.connectWithMe {
 		background-color: red;
-	}
+	}*/
 
 	header {
 		position: static;
+		margin: 0px;
 	}
 
 	#header {
@@ -269,7 +265,28 @@ hr {
 		width: 100%;
 	}
 
-	/*.navCell {
-		width: 33.33%
-	}*/
+	.navCell {
+		text-align: center;
+	}
+
+	.wrapper {
+		margin: auto;
+		max-width: 100%;
+	}
+
+	.aboutMe {
+		margin: 15px;
+		width: auto;
+	}
+
+	#aboutMe-profile-picture {
+		width: 570px;
+		height: 570px;
+		margin-right: 0px;
+	}
+
+	.connectWithMe {
+		width: 100%;
+		margin: 15px;
+	}
 }
