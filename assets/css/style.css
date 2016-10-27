@@ -331,7 +331,7 @@ textarea {
 		margin: 0px 0px 15px 0px;
 	}
 
-	
+
 }
 
 @media screen and (max-width: 640px) {
@@ -405,7 +405,10 @@ textarea {
 
 	
 
-	
+	.portfolio {
+		width: 100%;
+		margin: 0px 0px 15px 0px;
+	}
 
 	.portfolio-cell-left, .portfolio-cell-right, .port-img {
 		width: 100%;
