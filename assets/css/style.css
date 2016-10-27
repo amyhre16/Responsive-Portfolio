@@ -89,6 +89,7 @@ hr {
 	border: 2.5px solid #dddddd;
 	/*margin-right: 80px;*/
 	width: 270px;
+	/*clear: both;*/
 }
 
 .connectImg {
@@ -171,6 +172,17 @@ hr {
 	padding: 20px;
 }
 
+input {
+	margin-bottom: 10px;
+	margin-top: 3px;
+}
+
+textarea {
+	width: 558px;
+	height: 152px;
+	margin-top: 3px;
+}
+
 #submit-btn {
 	background-color: #4aaaa5;
 	border: none;
@@ -194,12 +206,21 @@ hr {
 	width: 650px;
 	margin-right: 40px;
 	padding: 20px;
+	margin-bottom: 40px;
 }
 
-.portfolio-cell {
+.portfolio-cell-left {
 	position: relative;
 	margin-right: 45px;
 	margin-bottom: 45px;
+	float: left;
+	clear: both;
+}
+
+.portfolio-cell-right {
+	position: relative;
+	margin-bottom: 45px;
+	float: left;
 }
 
 .port-img {
@@ -244,12 +265,26 @@ hr {
 		height: 100%;
 	}
 
+	.connectWithMe {
+		width: 30.5%;
+	}
+
 	.connectImg {
-		width: 32.01%;
+		width: 31%;
+	}
+
+	
+
+	.contactSection {
+		width: 60%;
+	}
+
+	input, textarea {
+		width: 100%;
 	}
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) and (min-width: 641px) {
 	.wrapper, .header-wrapper{
 		margin: auto;
 		max-width: 100%;
@@ -280,15 +315,26 @@ hr {
 	.connectImg {
 		width: 72px;
 	}
+
+
+
+	.contactSection {
+		width: 100%;
+		margin: 0px;
+		margin-bottom: 30px;
+	}
+
+
+
+	.portfolio {
+		width: 100%;
+		margin: 0px 0px 15px 0px;
+	}
+
+	
 }
 
 @media screen and (max-width: 640px) {
-	/*
-		changing connectWithMe background color to blue is so I can see that this query is working
-	*/
-	/*.connectWithMe {
-		background-color: red;
-	}*/
 
 	header {
 		position: static;
@@ -297,8 +343,8 @@ hr {
 	}
 	
 	.header-wrapper {
-		margin: auto;
-		max-width: 100%;
+		margin: 0px;
+		width: 100%;
 	}
 
 	#header {
@@ -342,5 +388,30 @@ hr {
 		width: 100%;
 		margin: 15px 0px 30px 0px;
 		/*margin-bottom: 30px;*/
+	}
+
+	.connectImg {
+		width: 13%;
+	}
+
+
+
+	.contactSection {
+		width: 100%;
+		margin: 0px;
+		margin-bottom: 15px;
+	}
+
+
+	
+
+	
+
+	.portfolio-cell-left, .portfolio-cell-right, .port-img {
+		width: 100%;
+	}
+
+	.port-img {
+		height: 100%;
 	}
 }
